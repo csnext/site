@@ -3,6 +3,7 @@ $header-padding-top: 100px;
 .header {
 	display: block;
 	width: 100%;
+	font-size: 0;
 }
 
 	.header-container {
@@ -38,6 +39,7 @@ $header-padding-top: 100px;
 		position: relative;
 		z-index: 1;
 
+		margin-top: -4px;
 		margin-right: 50px;
 		vertical-align: middle;
 	}
